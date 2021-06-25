@@ -1,10 +1,10 @@
 import { getCustomRepository } from "typeorm";
-import { UsersRepositories } from "../repositories/UsersRepositories";
+import { UsersRepositories } from "../../repositories/UsersRepositories";
 import { compare } from "bcryptjs";
 import { sign } from "jsonwebtoken";
 
 
-import { CustomError } from "../utils/CustomError";
+import { CustomError } from "../../utils/CustomError";
 
 interface IAuthenticateRequest {
   email: string;

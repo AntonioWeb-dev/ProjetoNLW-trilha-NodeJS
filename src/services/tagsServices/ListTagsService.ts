@@ -1,7 +1,7 @@
 import { getCustomRepository } from "typeorm";
-import { TagsRepositories } from "../repositories/TagsRepositories";
+import { TagsRepositories } from "../../repositories/TagsRepositories";
 import { classToPlain } from "class-transformer";
-import { CustomError } from "../utils/CustomError";
+import { CustomError } from "../../utils/CustomError";
 
 
 

@@ -1,5 +1,5 @@
 import { getCustomRepository } from "typeorm";
-import { ComplimentsRepositories } from "../repositories/ComplimentsRepositories";
+import { ComplimentsRepositories } from "../../repositories/ComplimentsRepositories";
 
 
 class ListUserSendComplimentsService {
